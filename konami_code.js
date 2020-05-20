@@ -17,8 +17,7 @@ let index = 0;
 
 document.body.addEventListener('keydown', (event) => {
 console.log(event.key);
-key = event.key;
-if (key === codes[index]) {
+if (event.key === codes[index]) {
   index++;
   if (index === codes.length) {
     window.alert("YES BITCH");
