@@ -20,7 +20,7 @@ console.log(event.key);
 if (event.key === codes[index]) {
   index++;
   if (index === codes.length) {
-    window.alert("YES BITCH");
+    window.alert("Hurray - YES BITCH");
     index = 0
   }
 } else {
