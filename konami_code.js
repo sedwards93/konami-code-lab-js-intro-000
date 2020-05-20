@@ -20,12 +20,12 @@ console.log(event.key);
 key = event.key;
 if (key === codes[index]) {
   index++;
-  if (index === codes.length - 1) {
+  if (index === codes.length) {
     window.alert("YES BITCH");
     index = 0
   }
 } else {
   index = 0;
 }
-}, false)
+})
 }
